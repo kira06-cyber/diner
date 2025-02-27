@@ -6,7 +6,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: #333;
   }
@@ -29,10 +29,11 @@
     align-items: center;
     justify-content: space-between;
   }
-  .navbar .logo a {
+
+  .navbar .logo a{
     color: #fff;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   .navbar .nav-links {
@@ -48,6 +49,7 @@
     font-size: 1em;
     transition: color 0.3s ease;
   }
+
   .navbar .nav-links a:hover,
   .navbar .nav-links a.active {
     color: #ffd900;
@@ -62,8 +64,8 @@
   }
   .hero h1 {
     font-size: 3em;
-    margin-bottom: 0.5em;
   }
+
   .hero p {
     font-size: 1.2em;
   }
@@ -72,6 +74,7 @@
   .about, .menu, .contact, .testimonials {
     padding: 3em 0;
   }
+
   .about h1,
   .menu h1,
   .contact h1,
@@ -106,12 +109,14 @@
   .menu-section {
     margin-bottom: 2em;
   }
+
   .menu-section h2 {
     border-bottom: 2px solid #6a1a2a;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
     color: #6a1a2a;
   }
+
   .menu-section ul {
     list-style: none;
   }
